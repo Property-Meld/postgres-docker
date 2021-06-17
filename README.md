@@ -1,5 +1,5 @@
 # Description
-This is a custome image based of CircleCI's postgres. We are adjusting some of the config in `postgresql.conf` to avoid running into errors when running many tests in parallel.
+This is a custom image based of CircleCI's postgres. We are adjusting some of the config in `postgresql.conf` to avoid running into errors when running many tests in parallel.
 ## Publishing a new image
 ### Build a new version
 `docker build ./ -t propertymeld/postgres`
